@@ -7,7 +7,10 @@
 # The linter file that doesn't lead junior developers to bad habits.
 # https://github.com/makersacademy/scaffolint
 #
-# Tested with Rubocop version 0.56.0
+# Problems (eg obselete names) may be due to an incompatible version.
+# Check your Rubocop version with `rubocop -v` in the command line.
+#
+# Tested with Rubocop version 0.71.0
 #
 # Introduction
 # ============
