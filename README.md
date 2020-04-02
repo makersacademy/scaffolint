@@ -20,3 +20,10 @@ Read [.rubocop.yml](.rubocop.yml) for details.
     ```
 1. Run `bundle install`
 1. Run `rubocop`
+
+## Editor integration
+
+We recommend installing Rubocop support for your editor to get fast feedback as you write your code:
+
+- Visual Studio Code: [ruby-rubocop extension](https://marketplace.visualstudio.com/items?itemName=misogi.ruby-rubocop)
+- Atom: [linter-rubocop package](https://atom.io/packages/linter-rubocop)
