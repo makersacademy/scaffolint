@@ -6,20 +6,23 @@ Read [.rubocop.yml](.rubocop.yml) for details.
 
 ## Quickstart
 
-1. Create a `.rubocop.yml` config file
-    ```yaml
-    # Configure Rubocop to use the config file in the Scaffolint GitHub repo
-    inherit_from:
-      - https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop.yml
-    ```
 1. Add Rubocop to your `Gemfile`
     ```ruby
     group :development, :test do
       gem "rubocop", "1.20"
     end
     ```
-1. Run `bundle install`
-1. Run `rubocop`
+
+2. Run `bundle install`
+
+3. Copy the ScaffoLint config file to your project
+    ```shell
+    ; curl -o .rubocop.yml https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop-stub.yml
+    ```
+
+    Or, if you already have a Rubocop config file, add the relevant lines from the [stub file](https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop-stub.yml).
+
+4. Run `rubocop`
 
 ## Editor integration
 
