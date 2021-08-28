@@ -40,6 +40,8 @@
 
 AllCops:
   DisabledByDefault: true
+  SuggestExtensions:
+    rubocop-rspec: false # Pending https://github.com/makersacademy/scaffolint/issues/7
 
 # Metrics
 # =======
