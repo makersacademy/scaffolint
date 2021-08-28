@@ -17,10 +17,10 @@ Read [.rubocop.yml](.rubocop.yml) for details.
 
 3. Copy the ScaffoLint config file to your project
     ```shell
-    ; curl -o .rubocop.yml https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop-stub.yml
+    ; curl -o .rubocop.yml https://raw.githubusercontent.com/makersacademy/scaffolint/v2.1.0/.rubocop-stub.yml
     ```
 
-    Or, if you already have a Rubocop config file, add the relevant lines from the [stub file](https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop-stub.yml).
+    Or, if you already have a Rubocop config file, add the relevant lines from the [stub file](./.rubocop-stub.yml).
 
 4. Gitignore the cached Rubocop file
   ```gitignore
