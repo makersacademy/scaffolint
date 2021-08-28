@@ -10,12 +10,12 @@ Read [.rubocop.yml](.rubocop.yml) for details.
     ```yaml
     # Configure Rubocop to use the config file in the Scaffolint GitHub repo
     inherit_from:
-      - https://raw.githubusercontent.com/makersacademy/scaffolint/v1.1.0/.rubocop.yml
+      - https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop.yml
     ```
 1. Add Rubocop to your `Gemfile`
     ```ruby
     group :development, :test do
-      gem "rubocop", "0.79.0"
+      gem "rubocop", "1.20"
     end
     ```
 1. Run `bundle install`
