@@ -22,7 +22,15 @@ Read [.rubocop.yml](.rubocop.yml) for details.
 
     Or, if you already have a Rubocop config file, add the relevant lines from the [stub file](https://raw.githubusercontent.com/makersacademy/scaffolint/v2.0.0/.rubocop-stub.yml).
 
-4. Run `rubocop`
+4. Gitignore the cached Rubocop file
+  ```gitignore
+  # File: .gitignore
+
+  # Local cache of Rubocop remote config
+  .rubocop-*
+  ```
+
+5. Run `rubocop`
 
 ## Editor integration
 
